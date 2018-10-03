@@ -1,0 +1,114 @@
+@media (max-width: 480px){
+    *{
+        margin: 0px;
+       padding: 0px;
+       box-sizing: border-box;
+    }
+@font-face {
+    font-family: fonte1;
+    src: url(LuloCleanOneBold.otf)
+}
+    
+nav{
+    background-color: #444343;;
+    border: none;
+}  
+nav ul{
+
+    margin-left: 30px;
+    width: 65%;
+        
+}
+a{
+    background-color: #eff1f4;
+    color: blue;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+a :hover{
+    color: blue
+}
+aside{
+    display: none
+}
+header{
+    height: 45vh;
+    background-color: blue;
+}
+h1{
+    font-size: 30pt;
+}
+.sect img{
+    width: 100px;
+    height: 100px;
+}
+.sect1{
+    height: 20vh;
+}
+.sect1 p{
+    
+    font-size: 7px;
+}
+.sect2 {
+    height: 20vh;
+}
+.sect2 p {
+    font-size: 7px;
+}
+.sect3{
+    height: 20vh;
+}
+.sect3 p {
+    font-size: 5px;
+}
+p:hover{
+    color: blue;
+}
+
+        /* footer*/
+    
+footer{
+    margin-top: 20px;
+    margin-left: 0px;
+    background-color: blue;
+    font-family: fonte1;
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+}
+.fundofooter{
+    margin: 5%;
+    background-color: white;
+    border: 3px solid #5D5C5C;
+    height: 90%;
+}
+footer input {
+    margin-left: px;
+    width: 97%;
+    border: 2px solid #5D5C5C;
+    padding: 4px;
+}
+footer div p{
+    margin-left: 15px;
+    color: blue;
+    font-weight: bold;
+    font-size: 10pt;
+}
+.sub {
+    text-align: left;
+    font-weight: bold;
+    font-size: 7pt;
+    margin-left: 45px;
+}
+.botao{
+
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    text-transform: uppercase;
+    font-family: fonte1;
+    font-weight: bold;
+    width: 85%;
+    margin-left: 25px; 
+    padding: 4px;
+}

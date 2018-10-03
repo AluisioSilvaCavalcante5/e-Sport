@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face{
+    
+    font-family: fonte1;
+    src: url(LuloCleanOneBold.otf)
+}
+
+
+/* nav */
+
+img{
+    width: 40px;
+    height: 40px;
+}
+nav{
+    display: flex;
+    font-family: fonte1;
+    font-size: 8pt;
+    background-color: #444343;
+    height: 10vh;
+    width: 100%;
+}
+nav ul {
+
+    list-style-type: none;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    width: 50%;
+    margin-left: 15%;
+    
+    
+}
+nav ul li{
+    
+    margin: 15px;
+    
+}
+a :hover{
+    color:#FC736B
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+aside{
+  
+    display: flex;
+    align-items: center;
+    justify-content:flex-end ;
+    width: 28%;
+    position: relative;
+    top: 1150px;
+    left: ;
+}
+
+/* sect2 */
+
+header{
+    background-color: #FC736B;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+   
+    font-family: fonte1;
+    color: white;
+    font-size: 65pt;
+}
+h2{
+    font-family: fonte1;
+    color: white;
+    font-size: 10pt
+}
+/* sect 3 */
+.meio{
+    display: flex;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+form{
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: white;   
+    border: 2px solid #5D5C5C;
+    width: 60%;
+    height: 85%;
+    justify-content: center;
+
+
+}
+form p {
+    margin: 10px;
+}
+textarea{
+    height: 130px;
+}
+input, textarea{
+    width: 600px;
+    padding: 10px;
+
+}
+section form h2{
+    font-size: 14pt;
+    color: black;
+    border-bottom: 2px solid #FC736B;
+    margin: 5%;
+}
+.enviar input{
+    background-color: #FC736B;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+/* contato */
+
+.article1{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #5D5C5C;
+    border-radius: 15px;
+    margin: 5%;
+    width: 445px;
+    height: 126px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -250px;
+    margin-left: 220px;
+    
+}
+.a{
+    color: #FC736B;
+    border-bottom: 1px solid #5D5C5C;
+    font-family: fonte1;
+    font-size: 12pt;
+}
+.b{
+    margin: 2%;
+    font-family: fonte1;
+    font-size: 9px;
+}
+.c{
+    font-family: fonte1;
+    font-size: 9px;
+}
+
+.d{
+    font-family: fonte1;
+    font-size: 9px;
+    margin-top: 3px;
+}
+
+/* footer */
+
+footer{
+    font-family: fonte1;
+    margin-top: 30px;
+    margin-left: -320px;
+    background-color: #FC736B;
+    border-top:1px solid #5D5C5C;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundofooter{
+    background-color: white;
+    width: 620px;
+    border: 3px solid #5D5C5C;
+    display: block;
+    
+}
+footer input {
+    margin: 5px 5px 5px 5px;
+    border: 2px solid #5D5C5C;
+}
+
+footer div p{
+    color: #FC736B;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 12pt;
+    
+}
+.sub {
+    text-align: left;
+    font-weight: bold;
+    margin-left: 45px;
+    font-size: 10pt;
+    margin-bottom: 15px;
+}
+.botao{
+
+    background-color: #FC736B;
+    color: white;
+    margin-left: 33px;
+    border: 2px solid #C95955;
+    text-transform: uppercase;
+    font-family: fonte1;
+    font-weight: bold;
+    width: 90%
+}
+
+/* final footer*/
+
+.finalb{
+    background-color: white;
+    height: 5vh;
+}

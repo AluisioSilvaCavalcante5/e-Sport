@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face{
+    
+    font-family: fonte1;
+    src: url(LuloCleanOneBold.otf)
+}
+/* nav */
+
+img{
+    width: 40px;
+    height: 40;
+}
+nav{
+    font-family: fonte1;
+    font-size: 8pt;
+    display: flex;
+    
+    background-color: #444343;
+    height: 10vh;
+    width: 100%;
+}
+nav ul {
+
+    list-style-type: none;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    width: 50%;
+    margin-left: 15%;
+    
+    
+}
+nav ul li{
+    
+    margin: 15px;
+    
+}
+a :hover{
+    color:#FC736B
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+aside{
+  
+    display: none;
+    align-items: center;
+    justify-content:flex-end ;
+    width: 28%;
+}
+
+/* sect2 */
+
+header{
+    background-color: #FC736B;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+   
+    font-family: fonte1;
+    color: white;
+    font-size: 80px;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    margin-left: 5px;
+}
+    /* sections */
+.sect{
+    margin-top: 25px;
+    background-color: #EFF1F4;
+}
+.sect1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #444343;
+    margin: 10px;
+    height: 220px;
+}
+.sect1 p{
+    display: flex;
+    font-family: fonte1;
+    font-size: 8pt;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+}
+.sect2{
+    display: flex;
+   text-align: center;
+   align-items: center;
+   border: 2px solid #444343;
+   margin: 10px;
+   height: 220px;
+
+}
+.sect2 p{
+    display: flex;
+    font-family: fonte1;
+    font-size: 8pt;
+    margin: 3px;
+    justify-content: center;
+    align-items: center;
+
+}
+.sect3{
+    display: flex;
+   text-align: center;
+   align-items: center;
+   border: 2px solid #444343;
+   margin: 10px;
+   height: 220px;
+
+}
+.sect3 p{
+    display: flex;
+    font-family: fonte1;
+    font-size: 8pt;
+    margin: 3px;
+    justify-content: center;
+    align-items: center;
+
+}
+p:hover{
+    color: #FC736B;
+    cursor: pointer;
+}
+    /* footer */
+footer{
+    font-family: fonte1;
+    margin-top: 30px;
+    margin-left: -320px;
+    background-color: #FC736B;
+    border-top:1px solid #5D5C5C;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundofooter{
+    background-color: white;
+    width: 620px;
+    border: 3px solid #5D5C5C;
+    display: block;
+    
+}
+footer input {
+    margin: 5px 5px 5px 5px;
+    border: 2px solid #5D5C5C;
+    width: 98%;
+    height: 30px;
+}
+
+footer div p{
+    color: #FC736B;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 12pt;
+    
+}
+.sub {
+    text-align: left;
+    font-weight: bold;
+    margin-left: 45px;
+    font-size: 10pt;
+    margin-bottom: 15px;
+}
+.botao{
+
+    background-color: #FC736B;
+    color: white;
+    margin-left: 32px;
+    border: 2px solid #C95955;
+    text-transform: uppercase;
+    font-family: fonte1;
+    font-weight: bold;
+    width: 90%
+}
